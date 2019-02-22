@@ -1,0 +1,363 @@
+.big-box{
+    width: 100%;
+    height:100%;
+    background: #eeeeee;
+}
+body{
+
+}
+header{
+    width: 100%;
+    height: 1.66rem;
+    margin: 0 auto;
+    background: #f87c3e;
+    padding-top: 0.2rem;
+}
+.title{
+    width: 6.94rem;
+    height: 0.35rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.title div.icon{
+    width: 0.35rem;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.title span{
+    font-size: 0.36rem;
+    color: #ffffff;
+    line-height: 0.35rem;
+}
+#return{
+    font-family: iconfont;
+    font-size: 0.24rem;
+    float: left;
+    margin: 0.04rem 0 0 0.04rem;
+    color: #f87c3e;
+}
+#share{
+    font-family: iconfont;
+    font-size: 0.24rem;
+    float: left;
+    margin: 0.04rem 0 0 0.04rem;
+    color: #f87c3e;
+}
+.order-form-box{
+    width: 100%;
+    height: 1.5rem;
+    position: absolute;
+    top: 1.02rem;
+}
+.order-form{
+    width: 7.02rem;
+    height: 1.5rem;
+    background: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(248, 124, 62, 0.31);
+    border-radius: 0.1rem;
+    padding-top: 0.34rem;
+    margin: 0 auto;
+}
+.order-form img{
+    width: 0.82rem;
+    height:0.82rem;
+    float: left;
+    margin-left: 0.3rem;
+}
+.order-information{
+    width: 2.06rem;
+    height: 0.82rem;
+    margin-left: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    float: left;
+}
+.order-information div{
+    width: 100%;
+}
+.order-information div.name{
+    font-size: 0.24rem;
+    color: #a6a6a6;
+}
+.order-information div#price{
+    font-size:0.22rem;
+    color: #f23b3b;
+}
+.order-information div.send{
+    font-size:0.22rem;
+    color: #a6a6a6;
+}
+.order-information div.send-special{
+    margin-top: 0.2rem;
+}
+.choose-box{
+    height: 2.71rem;
+    width: 100%;
+    background:#ffffff;
+    padding-top: 1.67rem;
+}
+.choose-option{
+    width: 4.17rem;
+    height: 0.49rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.choose-option div{
+    width: 1.76rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.49rem;
+    color: #ffffff;
+    font-size:0.22rem;
+    border-radius: 0.245rem;
+    background: #f8b43e;;
+}
+.choose-option div.return-index{
+    background: #f87c3e;
+}
+.propelling-movement{
+    width: 100%;
+    height: 1.22rem;
+    padding-top: 0.2rem;
+}
+.propelling-movement img{
+    width: 3.75rem;
+    height: 0.78rem;
+    margin:0 auto;
+}
+/*商品列表*/
+.list-container-box{
+    width:100%;
+    height:8.73rem;
+
+}
+.list-container{
+    width: 7.49rem;
+    height: 8.73rem;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.list-container a{
+    display: block;
+    width: 7.49rem;
+    height: 2rem;
+    background: #ffffff;
+    position: relative;
+}
+.img{
+    width: 1.18rem;
+    height: 1.1rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.25rem;
+}
+.img img{
+    width: 1.18rem;
+    height: 1.1rem;
+}
+.business-container{
+    width: 5.62rem;
+    height: 1.65rem;
+    position: absolute;
+    left:1.65rem;
+    top: 0.16rem;
+}
+.container-title{
+    width: 100%;
+    height:0.95rem;
+    border-bottom: 1px dashed #d1d1d1;
+    box-sizing: border-box;
+}
+.store-name{
+    width: 100%;
+    height: 0.24rem;
+    position: relative;
+}
+.store-logo{
+    width: 0.51rem;
+    height: 0.24rem;
+    border-radius: 0.03rem;
+    background: #f97d00;
+    font-size: 0.2rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 0.24rem;
+    color: #020202;
+    position: absolute;
+    left: 0;
+}
+.shop-name{
+    display: block;
+    width: 4.68rem;
+    height: 100%;
+    float: left;
+    font-weight: 600;
+    line-height: 0.24rem;
+    margin-left:0.62rem;
+    font-size: 0.24rem;
+    color: #000000;
+}
+.store-more{
+    width: 0.2rem;
+    height: 0.1rem;
+    line-height: 0.1rem;
+    font-size: 0.18rem;
+    font-weight: 999;
+    position: absolute;
+    right: 0.2rem;
+}
+.store-information{
+    width: 100%;
+    height: 0.45rem;
+    margin-top: 0.12rem;
+}
+.star-level{
+    width: 1.04rem;
+    height: 0.17rem;
+    padding: 0.01rem 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+}
+.star-level img{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+.store-information{
+    position: relative;
+}
+.store-information span{
+    width: 3.4rem;
+    height: 0.17rem;
+    position: absolute;
+    left: 1.16rem;
+    font-size: 0.18rem;
+    line-height: 0.17rem;
+    color: #686868;
+}
+.takeout{
+    width: 0.9rem;
+    height: 0.23rem;
+    background: #0086ff;
+    border-radius: 0.03rem;
+    text-align: center;
+    line-height: 0.23rem;
+    color: #ffffff;
+    font-size: 0.18rem;
+    position: absolute;
+    right: 0.06rem;
+}
+.price{
+    width: 100%;
+    height: 0.17rem;
+    line-height: 0.17rem;
+    font-size: 0.18rem;
+    color: #686868;
+    position: absolute;
+    top: 0.28rem;
+}
+.container-favourable{
+    width: 100%;
+    height: 0.53rem;
+    margin-top: 0.1rem;
+    padding: 0.02rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.favourable-minus{
+    width: 100%;
+    height: 0.22rem;
+    position: relative;
+}
+.minus{
+    width: 0.22rem;
+    height: 100%;
+    background: #f96f00;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+}
+.favourable-minus p{
+    position: absolute;
+    left: 0.45rem;
+    height: 100%;
+    width: 3.35rem;
+    font-size: 0.16rem;
+    color:#686868;
+    line-height: 0.22rem;
+    overflow: hidden;/*单行文本超出部分省略号表示*/
+    text-overflow: ellipsis;/*文字超出省略号表示*/
+    white-space: nowrap;/*只显示单行*/
+}
+#minus-text{
+    position: absolute;
+    left: 0.45rem;
+    height: 100%;
+    width: 3.28rem;
+    font-size: 0.16rem;
+    color:#686868;
+    line-height: 0.22rem;
+    overflow: hidden;/*单行文本超出部分省略号表示*/
+    text-overflow: ellipsis;/*文字超出省略号表示*/
+    white-space: nowrap;/*只显示单行*/
+}
+#minus-text4{
+    position: absolute;
+    left: 0.45rem;
+    height: 100%;
+    width: 3.28rem;
+    font-size: 0.16rem;
+    color:#686868;
+    line-height: 0.22rem;
+    overflow: hidden;/*单行文本超出部分省略号表示*/
+    text-overflow: ellipsis;/*文字超出省略号表示*/
+    white-space: nowrap;/*只显示单行*/
+}
+.favourable-activity{
+    width: 1.01rem;
+    height: 100%;
+    float: right;
+    margin-right: 0.06rem;
+    font-size: 0.16rem;
+    color:#686868;
+    line-height: 0.22rem;
+}
+.activity-icon{
+    vertical-align: middle;
+    font-family:  iconfont;
+    font-size: 0.26rem;
+}
+.special-offer{
+    width: 100%;
+    height: 0.22rem;
+    position: relative;
+}
+.offer{
+    width: 0.22rem;
+    height: 100%;
+    background: #f23b3b;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+}
+.spacial-offer-activity{
+    width: 4.02rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0.45rem;
+    font-size: 0.16rem;
+    color:#686868;
+    line-height: 0.22rem;
+}

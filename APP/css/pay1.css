@@ -1,0 +1,107 @@
+.box{
+    position: relative;
+    height: 100%;
+}
+.shaw{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 998;
+    position: absolute;
+}
+.pay-container{
+    width: 100%;
+    height: 7.2rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    z-index:999;
+    padding-top: 0.33rem;
+}
+.pay-multiply{
+    width: 0.18rem;
+    height:0.19rem;
+    float: right;
+    margin-right: 0.31rem;
+    color: #999999;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.19rem;
+
+}
+#pay-style-text{
+    width: 100%;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    position: absolute;
+    top: 0.58rem;
+    color:#fa6f29;
+}
+#pay-money{
+    width: 100%;
+    height: 0.25rem;
+    position: absolute;
+    top: 1.36rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.25rem;
+    color: #8d8d8d;
+}
+.pay-style-box{
+    width: 100%;
+    height: 3.3rem;
+    position: absolute;
+    top: 2.18rem;
+    /*left: 0.25rem;*/
+}
+#pay-style{
+    height: 3.3rem;
+    width: 7rem;
+    margin: 0 auto;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+#pay-style a{
+    width: 100%;
+    display: block;
+}
+#pay-style a>div{
+    width: 100%;
+    height: 0.66rem;
+    border-bottom: 0.03rem solid #eeeeee;
+    float: left;
+    position: relative;
+}
+.specific-style{
+    width: 0.33rem;
+    height: 0.08rem;
+    background:#f8ca3e;
+    position: absolute;
+    left: 2.76rem;
+    top: 0.3rem;
+}
+#pay-style>a>div span{
+    font-size: 0.24rem;
+    position: absolute;
+    left: 3.27rem;
+    top: 0.18rem;
+    color: #8d8d8d;
+}
+.specific-style-WeChat{
+    background: #f8803e;
+}
+.specific-style-bankCard{
+    background: #3e3ef8;
+}
+.specific-style-flower{
+    background: #3ec6f8;
+}
+.specific-style-others{
+    background: #f83ef1;
+}
+.pay-style-special{
+    background: #eeeeee;
+}

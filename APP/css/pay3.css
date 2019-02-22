@@ -1,0 +1,57 @@
+.fingerprint-box{
+    width: 100%;
+    height: 4.12rem;
+    position: absolute;
+    top: 4.48rem;
+    z-index:998;
+}
+.fingerprint{
+    width: 5.3rem;
+    height: 4.12rem;
+    background: #ffffff;
+    margin:0 auto;
+    z-index: 998;
+    border-radius: 0.1rem;
+    padding-top: 0.23rem;
+}
+.fingerprint-header{
+    width: 100%;
+    height:0.29rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.29rem;
+    color: #fa6f29;
+    font-weight: 600;
+}
+.fingerprint-price{
+    width: 100%;
+    height: 0.69rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    line-height: 0.69rem;
+    color: #fa9029;
+    font-size: 0.26rem;
+    border: 0.03rem solid #eeeeee;
+    border-left: none;
+    border-right: none;
+    font-weight: 500;
+}
+.fingerprint-recognition img{
+    width: 1.28rem;
+    height: 1.28rem;
+    margin: 0.25rem 0 0 2rem;
+}
+.fingerprint-input{
+    width: 100%;
+    height: 0.23rem;
+    text-align: center;
+    line-height: 0.23rem;
+    color: #8d8d8d;
+    font-size: 0.2rem;
+}
+.ID{
+    margin-top: 0.24rem;
+}
+.hand{
+    margin-top: 0.1rem;
+}

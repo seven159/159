@@ -1,0 +1,175 @@
+.box{
+    position: relative;
+}
+.shaw{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 998;
+    position: absolute;
+}
+/*支付*/
+.pay-container-box{
+    width: 100%;
+    height:3.96rem;
+    position: absolute;
+    top: 3.38rem;
+    z-index: 998;
+}
+.pay-container{
+    width: 6.31rem;
+    height: 3.96rem;
+    background: #ffffff;
+    margin: 0 auto;
+    z-index: 998;
+    left: 0.59rem;
+    border-radius: 0.1rem;
+    padding-top: 0.14rem;
+}
+#cross{
+    width: 0.18rem;
+    height: 0.19rem;
+    margin-left:5.91rem ;
+    text-align: center;
+    line-height: 0.19rem;
+    color: #999999;
+    font-size: 0.3rem;
+}
+#input-title{
+    width: 100%;
+    height:0.43rem;
+    line-height: 0.43rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #fa6f29;
+}
+.pay-container div.input-price{
+    width: 100%;
+    height: 0.69rem;
+    border: 0.03rem solid #e5e5e5;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    line-height: 0.69rem;
+}
+.pay-container div.input-price-title{
+    margin-top: 0.22rem;
+    font-family: "San Francisco Display";
+    font-size: 0.28rem;
+    color: #fa9029;;
+}
+.pay-container div.input-price-container{
+    border-top: none;
+    font-size: 0.18rem;
+    color: #585858;
+}
+#zhi-fu-bao{
+    font-family: iconfont;
+    width: 0.17rem;
+    height: 0.17rem;
+    font-size:0.18rem;
+    color: #1296da;
+}
+#input-password{
+    width: 100%;
+    height: 0.54rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#input-password div.password{
+    width: 0.68rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.password div.point{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #000000;
+    margin: 0 auto;
+}
+.password div.rounded-rectangle{
+    width: 100%;
+    height: 0.1rem;
+    background: #e5e5e5;
+    border-radius: 0.05rem;
+}
+.password div.special-point{
+    background: #ffffff;
+}
+.password div.special-rounded-rectangle{
+    background: #fa6f29;
+}
+#find-password{
+    width: 100%;
+    height: 0.2rem;
+    margin-top: 0.18rem;
+    padding: 0 0.26rem;
+    text-align: right;
+    line-height: 0.2rem;
+    font-size: 0.18rem;
+    color: #adadad;
+}
+#find-password i#find-password-icon{
+    font-family: iconfont;
+    font-size: 0.18rem;
+}
+/*键盘*/
+.keyboard{
+    width: 100%;
+    height: 5.11rem;
+    background: #ffffff;
+    z-index: 998;
+    position: fixed;
+    bottom: 0rem;
+}
+.keyboard div.keyboard-container{
+    height: 1.2775rem;
+    width: 2.5rem;
+    border: solid #dddee0 0.03rem;
+    float: left;
+    padding-top: 0.1rem;
+    text-align: center;
+    color: #000000;
+    font-size: 0.52rem;
+}
+.keyboard-container div.keyboard-spell{
+    font-size: 0.24rem;
+    color: #6f6f6f;
+    margin-top:-0.1rem;
+}
+.keyboard div.special-blank{
+    background: #c0c3c7;
+    border:none ;
+}
+#zero{
+    text-align: center;
+    line-height: 1rem;
+}
+.keyboard div.container-special{
+    border: none;
+}
+.keyboard div.container-special-2{
+    border-top: none;
+    border-bottom: none;
+}
+.keyboard div.container-special-4{
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+.keyboard div.container-special-5{
+    border-bottom: none;
+}
+.keyboard div.container-special-0{
+    border-left: 0.03rem solid #c0c3c7;
+    border-right: 0.03rem solid #c0c3c7;
+}
+#delete{
+    font-family: iconfont;
+    line-height: 1rem;
+    opacity: 0.5;
+}
